@@ -63,6 +63,9 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
 Configuration on Ubuntu
 -----------------------
 
+<!--
+Commenting out per issue #11 - bintray is gone
+
 ### Configure on Ubuntu 20.10 (Groovy)
 
 ```bash
@@ -91,8 +94,12 @@ $ echo 'deb https://dl.bintray.com/dryzig/zig-ubuntu bionic main' | sudo tee -a 
 $ sudo apt update
 ```
 
+-->
+
 Configuration on Debian
 -----------------------
+
+<!--
 
 ### Configure on Debian 11 (Bullseye)
 
@@ -107,6 +114,7 @@ $ sudo apt update
 $ echo 'deb https://dl.bintray.com/dryzig/zig-debian buster main' | sudo tee -a /etc/apt/sources.list
 $ sudo apt update
 ```
+-->
 
 Maintenance
 -----------
